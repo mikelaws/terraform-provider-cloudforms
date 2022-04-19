@@ -46,6 +46,7 @@ func Provider() terraform.ResourceProvider {
 		//Supported Resources by this provider
 		ResourcesMap: map[string]*schema.Resource{
 			"cloudforms_service_request": resourceServiceRequest(),
+			"cloudforms_instance": resourceInstance(),
 		},
 		ConfigureFunc: providerConfigure,
 	}
