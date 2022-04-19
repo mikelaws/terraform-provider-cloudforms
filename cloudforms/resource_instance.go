@@ -37,7 +37,7 @@ func resourceInstance() *schema.Resource {
 			"metadata": &schema.Schema{
 				Type:     schema.TypeString,
 				Optional: true,
-				ForceNew: false,
+				ForceNew: true,
 			},
 			"name": &schema.Schema{
 				Type:     schema.TypeString,
