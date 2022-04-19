@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/plugin"
-	"github.com/GSLabDev/terraform-provider-cloudforms/cloudforms"
+	"github.com/hashicorp/terraform-plugin-sdk/plugin"
+	"github.com/mikelaws/terraform-provider-cloudforms/cloudforms"
 )
 
 func main() {
